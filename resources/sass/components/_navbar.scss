@@ -1,0 +1,19 @@
+.bg-custom {
+    background-color: $customPrimary;
+    .container,
+    .collapse .navbar-nav {
+        a {
+            color: white;
+            font-weight: bold;
+            font-size: 1.5rem;
+            &:hover{
+                text-decoration: underline;
+                color: white;
+            }
+            &.active{
+                color: yellow;
+                // color: red;
+            }
+        }
+    }
+}
