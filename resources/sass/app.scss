@@ -3,14 +3,9 @@
 
 // Variables
 @import 'variables';
-@import "components/navbar";
-@import "components/texts";
-@import "components/sortableTables";
+@import 'components/navbar';
+@import 'components/sortableTables';
+@import 'components/texts';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-
-// General
-.star {
-    color: red;
-}

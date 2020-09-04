@@ -6,6 +6,7 @@ use App\models\Car;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Str;
 
 class SaveCarRequest extends FormRequest
 {
@@ -63,7 +64,6 @@ class SaveCarRequest extends FormRequest
         DB::transaction(function () use($car,$request) {
 
             $data = $this->validated();
-
             $car->fill($data);
             $car->save();
 

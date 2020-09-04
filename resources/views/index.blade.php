@@ -13,16 +13,16 @@
     <div class="col-12 col-md-4">
       <div class="list-group" id="list-tab" role="tablist">
         <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">
-          <i class="fas fa-truck" aria-hidden="true">
+          <i class="fas fa-bug" aria-hidden="true">
             ¿De que trata?
           </i>
         </a>
         <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">
-          <i class="fas fa-mobile-alt" aria-hidden="true">
+          <i class="fa fa-rocket" aria-hidden="true">
             ¿Que tecnologias se usaron?
           </i>
         </a>
-        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages"><i class="fas fa-balance-scale" aria-hidden="true">
+        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages"><i class="fa fa-search" aria-hidden="true">
           ¿Donde se encuentra?
         </i>
         </a>
@@ -37,7 +37,7 @@
     <div class="col-12 col-md-8">
       <div class="tab-content" id="nav-tabContent">
         <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-          <h3><i class="far fa-check-circle" aria-hidden="true"></i>
+          <h3><i class="fas fa-bug" aria-hidden="true"></i>
             Situacion Problema
           </h3>
           <p>
@@ -45,7 +45,7 @@
           </p>
         </div>
         <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-          <h3><i class="fas fa-headset" aria-hidden="true"></i>
+          <h3><i class="fa fa-rocket" aria-hidden="true"></i>
             Herramientas
           </h3>
           <p>
@@ -53,24 +53,25 @@
           </p>
         </div>
         <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-          <h3><i class="fas fa-gavel" aria-hidden="true"></i>
+          <h3><i class="fa fa-search" aria-hidden="true"></i>
             Repositorio
           </h3>
           <p>
             El presente proyecto se puede encontrar en el repositorio publico de GitHub en el siguiente link:
-            
+            <a href="https://github.com/andresdavidsv/pruebaGradiweb">https://github.com/andresdavidsv/pruebaGradiweb</a>
           </p>
         </div>
         <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-          <h3><i class="fas fa-users" aria-hidden="true"></i>
-            Se parte de nuestro equipo
+          <h3><i class="fas fa-briefcase" aria-hidden="true"></i>
+            El postulante
           </h3>
           <p>
-            En Turbo Transportes AV sas, estamos buscando constantemente talento. Si quieres hacer parte de nuestro equipo, contactanos.
+            Soy Andrés David Solarte Vidal, soy Ingeniero Electronico con enfasis en mecatronica, telecomunicaciones y robotica. Me he desarrollado de manera autodidacta como desarrollador, dominando las tecnologias de HTML, CSS, JavaScript, PHPL, Laravel, Vue, Angular, Python y otras mas.
+            Gracias a mi capacidad de educacion autodidacta, puedo dar lo mejor profesionalmente a los proyectos en los que colabora, ayudando a crecer a la empresa que represente.
           </p>
-          {{-- <a href="{{ route('contact') }}" class="btn btn-primary btn-lg btn-block" role="button" aria-pressed="true">
-            ¡Contactanos aqui!
-          </a> --}}
+          <a href="https://about.me/andresdavidsv/getstarted" class="btn btn-primary btn-lg btn-block" role="button" aria-pressed="true" target="_blank">
+            ¡Contactalo aqui!
+          </a>
         </div>
       </div>
     </div>
@@ -78,28 +79,21 @@
 </section>
 
 <section class="container">
-    <h1><i class="fas fa-check-double">TRANSPORTE CONFIABLE</i></h1>
-    <h2><p>MAS DE 15 AÑOS TRANSPORTANDO EL PROGRESO DE COLOMBIA</p></h2>
+    <h1><i class="fas fa-check-double">TRABAJO CONFIABLE</i></h1>
+    <h2><p>INGENIERO DE PROFESION, DESARROLLADOR POR PASION</p></h2>
 </section>
 
-<div class="container-fluid counter facts" align="center" id="facts">
-  <div class="container">
-    <ul class="list-group list-group-flush resumen-empresa">
-      <div class="row">
-        <li class="list-group-item col-12 col-sm-6 col-lg-3">
-          <p class="odometer one">0</p>entregas
-        </li>
-        <li class="list-group-item col-12 col-sm-6 col-lg-3">
-          <p class="odometer two">0</p>viajes
-        </li>
-        <li class="list-group-item col-12 col-sm-6 col-lg-3">
-          <p class="odometer three">0</p>Municipios en cobertura
-        </li>
-        <li class="list-group-item col-12 col-sm-6 col-lg-3">
-          <p class="odometer four">0</p>clientes
-        </li>
-      </div>
-    </ul>
+<div class="card text-center">
+  <div class="card-header">
+    Soy andresdavidsv
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">¿Por que andresdavidsv?</h5>
+    <p class="card-text">Estoy dispuesto a aportar mis conocimientos en el desarrollo de actividades. El crecimiento personal y profesional debe ser mutuo y estoy presto a ello.</p>
+    <a href="https://about.me/andresdavidsv/getstarted" class="btn btn-primary">Contactalo</a>
+  </div>
+  <div class="card-footer text-muted">
+    "Resiliencia", palabra con la que me identifico
   </div>
 </div>
 

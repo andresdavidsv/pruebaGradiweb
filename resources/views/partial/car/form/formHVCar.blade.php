@@ -58,8 +58,7 @@
                 @enderror"
             type="text" name="car_brand"
             value="{{ old('car_brand',$car->car_brand)}}"
-            onkeyup="javascript:this.value=this.value.toUpperCase();">
-
+            onkeyup="javascript:this.value=this.value[0].toUpperCase() + this.value.toLowerCase() ;">
             @error('car_brand')
               <span class="invalid-feedback" role="alert">
                 <strong>{{ $message }}</strong>
@@ -97,20 +96,20 @@
         @error('owner_id') is-invalid
         @enderror"
       type="number" name="owner_id"
-      id="NUMIDOWNER">
+      id="NUMIDOWNER"
+      data-live-search="true">
 
         <option value=" ">Seleccione el propietario</option>
         @foreach ($owner_id as $owner)
 
           <option value="{{$owner->id}}"
             {{old('owner_id', $car->owner_id) == $owner->id ? 'selected' : ''}}>
-             Cedula: {{$owner->doc_id}} -> {{$owner->name}} {{$owner->last_name}}
+            Cedula: {{$owner->doc_id}} -> {{$owner->name}} {{$owner->last_name}}
           </option>
 
         @endforeach
 
     </select>
-
 
 </div>
 

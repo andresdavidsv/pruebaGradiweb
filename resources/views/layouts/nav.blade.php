@@ -21,18 +21,13 @@
                 <li class="nav-item">
                     <a class="nav-link {{setActive('index')}}" href="{{ route('index') }}">{{ __('Index') }}</a>
                 </li>
-                {{-- <li class="nav-item">
-                    <a class="nav-link {{setActive('we')}}" href="{{ route('we') }}">{{ __('We') }}</a>
-                </li> --}}
-                {{-- <li class="nav-item">
-                    <a class="nav-link {{setActive('service')}}" href="{{ route('service') }}">{{ __('Service') }}</a>
-                </li> --}}
-                {{-- <li class="nav-item">
-                    <a class="nav-link {{setActive('contact')}}" href="{{ route('contact') }}">{{ __('Contact') }}</a>
-                </li> --}}
-                {{-- <li class="nav-item">
-                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                </li> --}}
+
+                <li class="nav-item">
+                    <a class="nav-link {{setActive('owners.index')}}" href="{{route('owners.index') }}">{{ __('Owners') }}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {{setActive('cars.index')}}" href="{{ route('cars.index') }}">{{ __('Cars') }}</a>
+                </li>
             @else
                 @if (Route::has('register'))
                     {{-- <li class="nav-item">

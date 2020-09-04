@@ -17,7 +17,7 @@ class CarFilter extends QueryFilter
             'search' => 'filled',
             'from' => 'date_format:d/m/Y',
             'to' => 'date_format:d/m/Y',
-            'order' => 'in:plate,car_config,owner_id,created_at',
+            'order' => 'in:plate,car_brand,car_config,owner_id,created_at',
             'direction' => 'in:asc,desc',
         ];
     }
