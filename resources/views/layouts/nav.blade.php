@@ -28,6 +28,9 @@
                 <li class="nav-item">
                     <a class="nav-link " href="{{ route('cars.index') }}">{{ __('Cars') }}</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="{{ route('demo')  }}">{{ __('Demo') }}</a>
+                </li>
             @else
                 @if (Route::has('register'))
                     {{-- <li class="nav-item">

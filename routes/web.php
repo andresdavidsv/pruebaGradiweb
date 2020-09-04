@@ -15,10 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 
 // Diseño Web
-// Diseño Web
 Route::get('/', function () {
         return view('index');
 })->name('index');
+
+Route::get('/demo', function () {
+        return view('partial/web/demo');
+})->name('demo');
 
 // Rutas para Propietarios
 
